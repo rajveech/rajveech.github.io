@@ -2,7 +2,16 @@
     min-height: 30px;
     padding: 5px 3px;
     background-color: #383532;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
+@media (max-width: 800px) {
+    .pdf-toolbar {
+      flex-direction: column;
+    }
+  }
 
 .pdf-toolbar-btn:hover {
     background-color: #ddd;
